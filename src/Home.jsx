@@ -1,24 +1,29 @@
 import poke from './assets/pokeapi_256.png'
-import './Home.css'
+import eevee from './assets/eevee.jpg'
+import './home.css'
 
 const Home = () => {
 
     return (
-        <div>
           
             <div>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
-                <img src={poke} />
+                <img src={eevee}/>
                 <img src={poke} />
             </div>
             
-        </div>
     )
 }
 
